@@ -64,9 +64,10 @@ body {
 
 /* Grid Card Wrapper */
 .card-wrapper {
-  display: grid;
+  /* display: grid; */
   width: 90%;
-  grid-template-columns:  minmax(300px, 400px);
+  /* max-width: 23rem; */
+  /* grid-template-columns:  minmax(300px, 400px); */
   margin: 0 auto;
   background: var(--clr-bg-card);
   text-align: center;
@@ -134,7 +135,17 @@ body {
 @media (min-width: 56.26em) {
   
   .card-wrapper {
-    grid-template-rows:  repeat(auto-fill, minmax(900px, 1200px));
+  /* max-width: 90rem; */
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+  }
+
+  .card__image {
+    grid-column: 2;
+  }
+
+  .card__content {
+    grid-row: 1;
   }
 
   .card__heading {
