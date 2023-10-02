@@ -64,10 +64,8 @@ body {
 
 /* Grid Card Wrapper */
 .card-wrapper {
-  /* display: grid; */
   width: 90%;
-  /* max-width: 23rem; */
-  /* grid-template-columns:  minmax(300px, 400px); */
+  max-width: 21rem;
   margin: 0 auto;
   background: var(--clr-bg-card);
   text-align: center;
@@ -82,12 +80,12 @@ body {
 
 .card__image::after,
 .card__image::before {
-  content: " ";
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--clr-accent);
   mix-blend-mode: multiply;
-  opacity: .5;
+  opacity: .75;
 }
 
 /* Typography Heading & Paragraph*/
@@ -135,7 +133,7 @@ body {
 @media (min-width: 56.26em) {
   
   .card-wrapper {
-  /* max-width: 90rem; */
+   max-width: 56rem;
    display: grid;
    grid-template-columns: 1fr 1fr; 
   }
@@ -146,6 +144,7 @@ body {
 
   .card__content {
     grid-row: 1;
+    padding: 3em;
   }
 
   .card__heading {
