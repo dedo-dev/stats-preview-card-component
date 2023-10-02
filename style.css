@@ -83,7 +83,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--clr-accent);
+  background: violet;
   mix-blend-mode: multiply;
   opacity: .75;
 }
