@@ -43,5 +43,3 @@ In this challenge I learned how to use css blend mode on an image, how to start 
 
 - Frontend Mentor - [@dedo-dev](https://www.frontendmentor.io/profile/dedo-dev)
 - Linkedin - [@daniele-zeppieri](https://www.linkedin.com/in/daniele-zeppieri-0b1a36252/)
-- Twitter - [@dedoDev13](https://twitter.com/dedoDev13)
-- Instagram - [@dedodev](https://www.instagram.com/dedodev/)
