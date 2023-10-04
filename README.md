@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-made-with-css-grid-flexbox-and-mobile-first-approach-IYdhs9h-U8
 - Live Site URL: https://dedo-dev.github.io/stats-preview-card-component/
 
 ## My process
